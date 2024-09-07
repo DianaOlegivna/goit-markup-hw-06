@@ -15,7 +15,7 @@ button {
 body { 
     font-family: "Roboto", sans-serif; 
     color: #434455;
-    background-color: #fcfcfc;
+    background-color: #ffffff;
 }
 
 .accent-color { 
@@ -79,6 +79,10 @@ body {
 
 /*============= /HERO SECTION ======== */ 
 
+.hero-section { 
+    background-color: #2e2f42;
+}
+
 .main-title { 
     font-weight: 700;
         font-size: 56px;
@@ -86,7 +90,7 @@ body {
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
-        background-color: #2e2f42;
+        
 }
 
 
@@ -133,6 +137,10 @@ body {
 
 /*============ Team Section ====== */
 
+.team-section { 
+    background-color: #F4F4FD;
+}
+
 .team-list-fullname { 
     font-weight: 500;
         font-size: 20px;
@@ -141,6 +149,10 @@ body {
         text-align: center;
         color: #2e2f42;
 
+} 
+
+.team-list { 
+    background-color: #FFFFFF;
 }
 
 .team-list-text { 
@@ -176,7 +188,6 @@ body {
         background-color: #ffffff;
 }
 
-
 .portfolio-description { 
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -187,10 +198,15 @@ body {
 /*=========== / Our Portfolio ====== */
 
 /*=========== Page Footer ========= */
-.page-description{ 
+.page-description { 
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
         background-color: #2e2f42;
+}
+
+.page-footer { 
+    background-color: #2e2f42;
+
 }
 /*=========== /Page Footer ========= */
