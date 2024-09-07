@@ -47,6 +47,7 @@ body {
         color: #2e2f42;
 }
 
+
 .page-address { 
     font-style: normal;
 }
@@ -209,7 +210,7 @@ body {
 
 }
 
-.color-text { 
-    color: #f4f4fd;
+.footer-text { 
+    color: #f4f4fd
 }
 /*=========== /Page Footer ========= */
