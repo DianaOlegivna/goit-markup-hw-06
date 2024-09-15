@@ -411,7 +411,6 @@ img {
 .page-logo {
     display: inline-block;
     margin-bottom: 16px;
-    display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 0;
