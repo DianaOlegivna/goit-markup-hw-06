@@ -309,7 +309,7 @@ img {
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
-        
+
 }
 
 
@@ -318,12 +318,13 @@ img {
 
 /*===========  Our Portfolio ====== */
 
+
 .our-portfolio { 
     padding: 120px 0;
 }
 
 .portfolio-container { 
-    max-width: 1128px;
+    max-width: 1200px;
     margin: 0 auto;
     text-align: center;
 }
@@ -343,35 +344,30 @@ img {
 
 .portfolio-list { 
     display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    justify-content: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 24px;
+    
 }
 
 .portfolio-list-item { 
     width: calc((100% - 48px) / 3);
-    display: flex;
-        flex-direction: column;
-        align-items: center;
 }
 
-.portfolio-list-img { 
-    display: block;
-        width: 100%;
-        height: auto;
-        border-radius: 8px;
+.portfolio-list-img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 16px;
 }
+
 
 .list-container { 
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
     background-color: #ffffff;
-    border-radius: 8px;
     text-align: center;
 }
 
@@ -401,21 +397,21 @@ img {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
-
-
 }
 
-.footer-container { 
-    padding: 100px 0;
-}
 
 .page-footer { 
     background-color: #2e2f42;
+    padding: 100px 0;
+    }
+
+.footer-container { 
+    display: inline-block;
+    
 
 }
 
 .page-logo {
-    display: inline-block;
     margin-bottom: 16px;
 }
 
