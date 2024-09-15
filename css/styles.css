@@ -347,6 +347,7 @@ img {
         flex-wrap: wrap;
         justify-content: space-between;
         gap: 24px;
+        row-gap: 48px;
     
 }
 
@@ -397,6 +398,7 @@ img {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+    max-width: 264px;
 }
 
 
@@ -413,6 +415,12 @@ img {
 
 .page-logo {
     margin-bottom: 16px;
+    display: inline-block;
+    display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 0px;
 }
 
 .footer-text { 
