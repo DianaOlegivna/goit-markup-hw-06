@@ -394,36 +394,40 @@ img {
 /*=========== / Our Portfolio ====== */
 
 /*=========== Page Footer ========= */
-.page-description { 
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #f4f4fd;
-    max-width: 264px;
-}
 
-
-.page-footer { 
+.page-footer {
     background-color: #2e2f42;
     padding: 100px 0;
-    }
-
-.footer-container { 
-    display: inline-block;
     
+}
 
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+    
 }
 
 .page-logo {
-    margin-bottom: 16px;
     display: inline-block;
+    margin-bottom: 16px;
     display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        flex-direction: row;
-        gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0;
 }
 
-.footer-text { 
-    color: #f4f4fd
+.page-description {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    max-width: 264px;
+    margin: 0;
 }
+
+.footer-text {
+    color: #f4f4fd;
+}
+
 /*=========== /Page Footer ========= */
