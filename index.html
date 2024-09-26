@@ -439,23 +439,23 @@
          <div class="link-subscribe"> 
         <p class="subscribe-link"> Subscribe </p>
         <form class="link-subscribe-send">
-            <label class="review-form-subscribe" for="user-email">
+            <label class="review-form-subscribe" for="user-subscribe">
             <input class="email-subscribe"
-            id="user-email" 
+            id="user-subscribe" 
             type="email" 
             name="user-email"
             placeholder="E-mail"
             /> 
             </label>
-            <div class="subscribe-button">
+        </form>
+            
             <button class="subscribe-btn" type="submit"> Subscribe 
-                <svg class="button-subscribe"> 
-                    <use href="./images/symbol-defs.svg#icon-Frame-3" width="24" height="24"></use>
+                <svg class="button-subscribe" width="24" height="24"> 
+                    <use href="./images/symbol-defs.svg#icon-Frame-3"></use>
                 </svg>
             </button>
-            </div>
-        </form>
-        </div>
+         </div>
+        
     </div>
 </footer>
 
@@ -479,7 +479,7 @@
                     type="text"
                     required
                     />
-                    <svg class="review-form-input-icon" width="24" height="24">
+                    <svg class="review-form-input-icon" width="18" height="24">
                         <use href="./images/symbol-defs.svg#icon-person-black-18dp-1-1"></use>
                     </svg>
                 </div>
@@ -489,38 +489,37 @@
                 <label class="review-form-field-label" for="user-phone">Phone</label>
                 <div class="review-form-input-wrapper">
                     <input class="review-form-input" id="user-phone" name="user-phone" type="tel" required />
-                    <svg class="review-form-input-icon" width="24" height="24">
+                    <svg class="review-form-input-icon" width="18" height="24">
                         <use href="./images/symbol-defs.svg#icon-phone-black-18dp-1"></use>
                     </svg>
                 </div>
             </div>
 
             <div class="review-form-field-wrapper">
-                <label class="review-form-field-label" for="user-email">Name</label>
+                <label class="review-form-field-label" for="user-email">Email</label>
                 <div class="review-form-input-wrapper">
                     <input class="review-form-input" id="user-email" name="user-email" type="email" required />
-                    <svg class="review-form-input-icon" width="24" height="24">
+                    <svg class="review-form-input-icon" width="18" height="24">
                         <use href="./images/symbol-defs.svg#icon-email-black-18dp-1"></use>
                     </svg>
                 </div>
             </div>
 
-            <div class="review-form-field-wrapper">
+            <div class="review-form-field">
                 <label class="review-form-field-label" for="user-comment">Comment</label>
-                <div class="review-form-input-wrapper">
-                   <textarea  
-              class="review-form-comment"
+                   <textarea class="review-comment"
               name="user-comment"
               id="user-comment"
               placeholder="Text input"
               required
               ></textarea>   
-                </div>
             </div>
+        </form>
             <div class="review-form-checkbox-wrapper">
-                <input class="review-form-checkbox visually-hidden" id="privacy-policy" type="checkbox" name="privacy-policy"
+                <label class="review-form-checkbox-label" for="user-privacy"></label>
+                <div class="review-form-input-wrapper">
+                <input class="review-form-checkbox visually-hidden" id="user-privacy" type="checkbox" name="privacy-policy"
                     value="true" required />
-                <label class="review-form-checkbox-label" for="privacy-policy">
                     <span class="review-form-custom-checkbox">
                         <svg class="review-form-checkbox-icon" width="10" height="8">
                             <use href="./images/symbol-defs.svg#icon-Vector"></use>
@@ -530,18 +529,10 @@
                     <a class="review-form-policy-link accent-color" href="">
                         Privacy Policy
                     </a>
-                </label>
-            </div>
             <button class="review-form-submit-btn" type="submit">Send</button>
-
-        </form>
-
-
-
-
-
+                </div>
+         </div>
     </div>
 </div>
-
 </body>
 </html>
