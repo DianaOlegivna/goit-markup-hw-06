@@ -675,11 +675,13 @@ opacity: 1;
 }
 
 .modal {
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
         width: 408px;
         min-height: 584px;
-        overflow: auto;
-        padding: 40px;
+        transform: translate(-50%, -50%);
+       
         border-radius: 4px;
         background-color: #fcfcfc;
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -746,6 +748,10 @@ padding:0;
 
 }
 
+.review-form-field { 
+    margin-bottom: 16px;
+}
+
 .review-form-field-label {
     display: block;
         font-size: 12px;
@@ -805,6 +811,8 @@ padding:0;
     padding: 16px 16px;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 8px 16px;
+    outline: transparent;
 }
 
 .review-form-comment::placeholder {
@@ -883,8 +891,7 @@ padding:0;
 
 .review-form-submit-btn {
     display: block;
-    align-items: center;
-    justify-content: center;
+    margin-left: 92px;
     min-width: 169px;
     height: 56px;
     font-weight: 500;
@@ -897,12 +904,8 @@ padding:0;
     background-color: #4D5AE5;
     color: #ffffff;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
 
 }
 
-.review-submit-btn { 
-    display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-}
