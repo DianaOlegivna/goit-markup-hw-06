@@ -447,13 +447,12 @@
             placeholder="E-mail"
             /> 
             </label>
-        </form>
-            
-            <button class="subscribe-btn" type="submit"> Subscribe 
-                <svg class="button-subscribe" width="24" height="24"> 
+            <button class="subscribe-btn" type="submit"> Subscribe
+                <svg class="button-subscribe" width="24" height="24">
                     <use href="./images/symbol-defs.svg#icon-Frame-3"></use>
                 </svg>
             </button>
+        </form>
          </div>
         
     </div>
@@ -505,21 +504,25 @@
                 </div>
             </div>
 
-            <div class="review-form-field">
+            <div class="review-form-field-wrapper">
                 <label class="review-form-field-label" for="user-comment">Comment</label>
-                   <textarea class="review-comment"
+                   <textarea class="review-form-comment"
               name="user-comment"
               id="user-comment"
               placeholder="Text input"
               required
               ></textarea>   
             </div>
-        </form>
+        
             <div class="review-form-checkbox-wrapper">
-                <label class="review-form-checkbox-label" for="user-privacy"></label>
-                <div class="review-form-input-wrapper">
-                <input class="review-form-checkbox visually-hidden" id="user-privacy" type="checkbox" name="privacy-policy"
-                    value="true" required />
+                <input class="review-form-checkbox visually-hidden" 
+                id="user-privacy"
+                 type="checkbox"
+                 name="privacy-policy"
+                    value="true" 
+                    required 
+                    />
+                    <label class="review-form-checkbox-label" for="user-privacy">
                     <span class="review-form-custom-checkbox">
                         <svg class="review-form-checkbox-icon" width="10" height="8">
                             <use href="./images/symbol-defs.svg#icon-Vector"></use>
@@ -529,10 +532,13 @@
                     <a class="review-form-policy-link accent-color" href="">
                         Privacy Policy
                     </a>
+                    </label>
+                    </div>
+                    <div class="review-submit-btn">
             <button class="review-form-submit-btn" type="submit">Send</button>
-                </div>
+                    </div>
+                </form>
          </div>
     </div>
-</div>
 </body>
 </html>
