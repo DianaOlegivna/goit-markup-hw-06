@@ -1,0 +1,46 @@
+
+.hero-section { 
+    max-width: 320px;
+    max-height: 432px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/retina-picture/Dark-bg-mobile.jpg);
+    background-size: cover;
+}
+
+@media screen (max-width: 767px) and (min-resolution: 192dpi) {
+    .hero-section { 
+        background-image: url(../images/retina-picture/Dark-bg-mobile@2x.jpg);
+    }   
+}
+
+@media screen and (min-width: 768px) { 
+    .hero-section { 
+        max-width: 768px;
+        max-height: 436px;
+        
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/retina-picture/Dark-bg-desktop.jpg);
+    }
+}
+
+@media screen (min-width: 768px) and (min-resolution: 192dpi) { 
+    .hero-section { 
+        background-image: url(../images/retina-picture/Dark-bg-desktop@2x.jpg);
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .hero-section { 
+        max-width: 1140px;
+        max-height: 600px;
+
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/retina-picture/people-office\ 1.jpg);
+    }
+}
+
+@media screen (min-width: 1158px) and (min-resolution: 192dpi)  {
+    .hero-section { 
+        background-image: url(../images/retina-picture/people-office\ 1@2x.jpg);
+    }
+}
